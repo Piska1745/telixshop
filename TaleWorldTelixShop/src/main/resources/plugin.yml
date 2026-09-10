@@ -1,0 +1,12 @@
+name: TaleWorldTelixShop
+version: 1.0.0
+main: ru.taleworldsmp.shop.TaleWorldTelixShop
+api-version: '1.21'
+depend: [TaleWorldSMP]
+commands:
+  telixshop:
+    description: Open Telix shop
+    aliases: [tshop]
+permissions:
+  taleworldsmp.shop.use:
+    default: true
